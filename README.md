@@ -4,13 +4,13 @@ A comprehensive data analysis project exploring the growth of India's electric v
 
 ## Project Summary
 
-India's EV market has gone from near-zero in 2019 to a meaningful share of total passenger car sales by 2025. This project investigates **who is selling, what they're selling, where it's being bought, and what's driving it** — using real sales data, model specifications, geographic data, and policy information.
+India's EV market has gone from near-zero in 2019 to a meaningful share of total passenger car sales by 2025. This project investigates **who is selling, what they're selling, where it's being bought, and what's driving it** — using real sales data, model specifications, geographic data, and policy information, in fact, the point of starting my analysis from 2019 was because of Tata, the EV giant in indian market today, their TigorEV was launched in 2019 which acted as a stepping stone for the EV market.
 
-Key questions;
+Key questions that are answered;
 - How fast has India's EV market grown, and what drove the inflection points?
 - Which brands and models are dominating — and is Tata's lead under threat?
 - Does affordability (price) or range anxiety matter more for adoption?
-- Which states are leading EV uptake, and which are lagging?
+- Which states are leading EV uptake, and which ones lag behind?
 - How closely does government policy spending correlate with sales growth?
 
 
@@ -112,7 +112,7 @@ Opens at `http://localhost:8501` — interactive filters for year range and bran
 
 ## Requirements
 
-See `requirements.txt`:
+Check out `requirements.txt`:
 ```
 pandas>=2.0
 numpy>=1.24
@@ -122,16 +122,6 @@ streamlit>=1.30
 jupyter>=1.0
 notebook>=7.0
 ```
-
-## Possible Extensions
-
-- Add 2-wheeler EV data (Ola, Ather, TVS, Bajaj) for full market picture
-- Scrape monthly VAHAN data for seasonal trend analysis
-- Add charging infrastructure dataset for infra vs adoption correlation
-- Build a price prediction model using battery size, segment, and brand as features
-- Integrate CO₂ savings estimation based on ICE displacement
-
----
 
 ## Author
 
