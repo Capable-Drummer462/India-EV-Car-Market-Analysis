@@ -1,23 +1,20 @@
-# 🔋 India Electric Vehicle Market Analysis (2019–2025)
+India EV Market Analysis (2019–2025)
 
-A comprehensive data analysis project exploring the growth of India's electric vehicle passenger car market — covering brand competition, model performance, price-range positioning, state-wise adoption, and the impact of government policy.
+A comprehensive data analysis project exploring the growth of India's electric vehicle passenger car market — covering brand competition, model performance, price-range positioning,state-wise adoption, and the impact of government policy.
 
----
-
-## 📌 Project Summary
+## Project Summary
 
 India's EV market has gone from near-zero in 2019 to a meaningful share of total passenger car sales by 2025. This project investigates **who is selling, what they're selling, where it's being bought, and what's driving it** — using real sales data, model specifications, geographic data, and policy information.
 
-**Key questions answered:**
+Key questions;
 - How fast has India's EV market grown, and what drove the inflection points?
 - Which brands and models are dominating — and is Tata's lead under threat?
 - Does affordability (price) or range anxiety matter more for adoption?
 - Which states are leading EV uptake, and which are lagging?
 - How closely does government policy spending correlate with sales growth?
 
----
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 india_ev_analysis/
@@ -34,9 +31,7 @@ india_ev_analysis/
 └── README.md                         # This file
 ```
 
----
-
-## 📊 Datasets
+## Datasets
 
 | File | Rows | Description |
 |------|------|-------------|
@@ -53,7 +48,7 @@ india_ev_analysis/
 
 ---
 
-## 🔍 Analysis Sections (Notebook)
+## Analysis Sections
 
 | Section | What it covers |
 |---------|----------------|
@@ -70,7 +65,7 @@ india_ev_analysis/
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 1. **Market size:** ~3.17 lakh EV passenger cars sold across 2019–2025 in the tracked segments; 2025 is the highest single year
 2. **Tata dominance:** Tata Motors holds ~56% of all EV sales — built on affordable models (Nexon, Tiago, Punch)
@@ -82,7 +77,7 @@ india_ev_analysis/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Install dependencies
 ```bash
@@ -103,7 +98,7 @@ Opens at `http://localhost:8501` — interactive filters for year range and bran
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -115,9 +110,7 @@ Opens at `http://localhost:8501` — interactive filters for year range and bran
 | Streamlit | Interactive web dashboard |
 | Jupyter | Notebook-based EDA and narrative |
 
----
-
-## 📦 Requirements
+## Requirements
 
 See `requirements.txt`:
 ```
@@ -130,9 +123,7 @@ jupyter>=1.0
 notebook>=7.0
 ```
 
----
-
-## 💡 Possible Extensions
+## Possible Extensions
 
 - Add 2-wheeler EV data (Ola, Ather, TVS, Bajaj) for full market picture
 - Scrape monthly VAHAN data for seasonal trend analysis
@@ -142,12 +133,8 @@ notebook>=7.0
 
 ---
 
-## 👤 Author
+## Author
 
-**[Your Name]**  
+**Gopal Vashistha**  
 Data Analysis Project | Python · pandas · Streamlit  
 Data collected and verified: 2025
-
----
-
-*This project was built for portfolio/resume purposes. All data is compiled from publicly available sources and may contain minor approximations.*
