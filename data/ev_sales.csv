@@ -1,0 +1,66 @@
+Year,Car_Brand, Model,Segment,Units_Sold
+2019,Tata,TigorEv,Sedan,669
+2019,Mahindra,e-Verito,Sedan,563
+2019,Mahindra,e-20 plus,Hatchback,30
+2019,Hyundai,Kona Electric,SUV,292
+2020,Tata,NexonEv,SUV,2529
+2020,Tata,TigorEv,Sedan,100
+2020,MG,ZS EV,SUV,1142
+2020,Hyundai,Kona Electric,SUV,223
+2020,Mahindra,e-Verito,Sedan,9
+2021,Tata,NexonEv,SUV,9111
+2021,Tata,TigorEv,Sedan,2400
+2021,MG,ZS EV,SUV,2798
+2021,Hyundai,Kona Electric,SUV,121
+2021,Others,Luxury Models,-,260
+2022,Tata,NexonEv,SUV,29149
+2022,Tata,TigorEv,Sedan,11890
+2022,MG,ZS EV,SUV,4414
+2022,Hyundai,Kona Electric,SUV,470
+2022,BYD,e6,MUV,1250
+2022,Others,Luxury Models,-,1089
+2023,Tata,NexonEv,SUV,24500
+2023,Tata,TigorEv,Sedan,9900
+2023,Tata,TiagoEv,Hatchback,32000
+2023,Mahindra,XUV400,SUV,4200
+2023,Hyundai,Ioniq-5,SUV,1350
+2023,MG,ZS EV,SUV,6800
+2023,MG,Comet EV,Hatchback,3700
+2023,BYD,e6,MUV,550
+2023,BYD,Atto3,SUV,1450
+2023,Citroen,eC3,Hatchback,1938
+2023,Others,Luxury Models,-,3161
+2024,Tata,NexonEv,SUV,13800
+2024,Tata,TigorEv,Sedan,9500
+2024,Tata,TiagoEv,Hatchback,19200
+2024,Tata,PunchEv,SUV,24500
+2024,Tata,CurvvEv,Coupe,4400
+2024,Mahindra,XUV400,SUV,6400
+2024,MG,ZS EV,SUV,3400
+2024,MG,Comet EV,Hatchback,6800
+2024,MG,WindsorEV,MUV,11200
+2024,Hyundai,Ioniq-5,SUV,910
+2024,BYD,Atto3,SUV,887
+2024,BYD,e6,MUV,1313
+2024,Others,Luxury Models,-,2799
+2025,Tata,NexonEv,SUV,13978
+2025,Tata,TigorEv,Sedan,4820
+2025,Tata,TiagoEv,Hatchback,17145
+2025,Tata,PunchEv,SUV,17966
+2025,Tata,CurvvEv,Coupe,7534
+2025,Tata,HarrierEv,SUV,8561
+2025,Mahindra,BE6,SUV,23248
+2025,Mahindra,XEV9E,Coupe,5422
+2025,Mahindra,XUV400,SUV,4843
+2025,Hyundai,Ioniq-5,SUV,3105
+2025,Hyundai,CretaEv,SUV,3617
+2025,MG,ZS EV,SUV,7042
+2025,MG,Comet EV,Hatchback,10149
+2025,MG,WindsorEV,MUV,19394
+2025,MG,Cyberster,Sports,500
+2025,BYD,e6,MUV,2250
+2025,BYD,Atto3,SUV,3152
+2025,Citroen,eC3,Hatchback,871
+2025,Kia,ClavisEv,MUV,2731
+2025,VinFast,VF,Hatchback,826
+2025,Others,Luxury Models,-,5357

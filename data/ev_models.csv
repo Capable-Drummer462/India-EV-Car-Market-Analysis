@@ -1,0 +1,25 @@
+Car_Brand,Model,Segment,launch_year,price (Lakhs) (on road),battery (kWh)
+Tata,NexonEv,SUV,2020,15,30
+Tata,TigorEv,Sedan,2019,13,21.5
+Tata,TiagoEv,Hatchback,2022,7.3,19.2
+Tata,PunchEv,SUV,2024,10.28,25
+Tata,CurvvEv,Coupe,2024,18.07,45
+Tata,HarrierEv,SUV,2025,23.05,65
+Mahindra,e-Verito,Sedan,2016,10.52,13.8
+Mahindra,e-20 plus,Hatchback,2016,6.12,11
+Mahindra,XUV400,SUV,2023,16.71,34.5
+Mahindra,BE6,SUV,2024,20.67,59
+Mahindra,XEV9E,Coupe,2024,23.26,59
+MG,ZS EV,SUV,2020,19.09,44.5
+MG,Comet EV,Hatchback,2023,7.82,17.3
+MG,WindsorEV,MUV,2024,15.25,38
+MG,Cyberster,Sports,2025,78.8,77
+BYD,e6,MUV,2021,30.1,71.7
+BYD,Atto3,SUV,2022,26.34,60.48
+Hyundai,Kona Electric,SUV,2019,26.3,39.2
+Hyundai,Ioniq-5,SUV,2023,58.59,72.6
+Hyundai,CretaEv,SUV,2025,19.09,42
+Citroen,eC3,Hatchback,2023,12.59,29.2
+Kia,ClavisEV,MUV,2025,18.74,42
+VinFast,VF,Hatchback,2025,17.16,59.6
+Others,Luxury Models,-,2020,117,81
