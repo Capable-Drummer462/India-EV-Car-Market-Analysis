@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
-import seaborn as sns
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -90,9 +89,9 @@ selected_brands = st.sidebar.multiselect("Filter Brands", all_brands, default=al
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Data Sources**")
-st.sidebar.caption("VAHAN Dashboard · SIAM · ET Auto · Brand Websites · Ministry of Heavy Industries")
+st.sidebar.caption("VAHAN Dashboard, SIAM, ET Auto, EvoIndia, TeamBHP, Brand Websites, Ministry of Heavy Industries")
 st.sidebar.markdown("---")
-st.sidebar.caption("Built with Python · pandas · matplotlib · Streamlit")
+st.sidebar.caption("Built with Python  pandas  matplotlib  Streamlit")
 
 # ── Filter data ────────────────────────────────────────────────
 filtered = sales[
@@ -103,7 +102,7 @@ filtered = sales[
 
 # ── Header ─────────────────────────────────────────────────────
 st.title("India Electric Vehicle Market Analysis")
-st.markdown("**Passenger cars · 2019–2025 · Tata, Mahindra, MG, BYD & more**")
+st.markdown("**Passenger cars · 2019–2025 · All Major Car Brands**")
 st.markdown("---")
 
 # ── KPI Metrics ────────────────────────────────────────────────
@@ -303,7 +302,7 @@ with tab3:
     st.pyplot(fig)
     plt.close()
 
-    st.markdown('<div class="insight-box">💡 Models under ₹20L (green zone) account for the majority of sales volume — the larger bubbles cluster in the affordable-to-mid segment, confirming that <strong>price sensitivity drives EV adoption</strong> in India more than battery size.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="insight-box"> Models under ₹20L (green zone) account for the majority of sales volume — the larger bubbles cluster in the affordable-to-mid segment, confirming that <strong>price sensitivity drives EV adoption</strong> in India more than battery size.</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="section-header">Full Model Specifications</div>', unsafe_allow_html=True)
     display_models = models[models['Car_Brand'] != 'Others'][['Car_Brand', 'Model', 'Segment', 'Launch_Year', 'Price_Lakh', 'Battery_kWh']].copy()
@@ -384,4 +383,4 @@ with tab5:
     st.markdown('<div class="section-header">Policy Timeline</div>', unsafe_allow_html=True)
     st.dataframe(policy.set_index('Year'), use_container_width=True)
 
-    st.markdown('<div class="insight-box">💡 <strong>FAME II (₹11,500 Cr, 2019)</strong> was the single biggest catalyst — but effects lagged ~2 years. The PLI schemes for batteries (₹18,100 Cr) and automobiles (₹25,938 Cr) are structural investments expected to drive cost reduction through 2026–28. PM E-Drive (2024) focuses on charging infrastructure — the next key bottleneck.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="insight-box">  <strong>FAME II (₹11,500 Cr, 2019)</strong> was the single biggest catalyst — but effects lagged ~2 years. The PLI schemes for batteries (₹18,100 Cr) and automobiles (₹25,938 Cr) are structural investments expected to drive cost reduction through 2026–28. PM E-Drive (2024) focuses on charging infrastructure — the next key bottleneck.</div>', unsafe_allow_html=True)
