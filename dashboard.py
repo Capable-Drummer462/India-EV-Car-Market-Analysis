@@ -10,7 +10,6 @@ warnings.filterwarnings('ignore')
 # ── Page config ──────────────────────────────────────────────
 st.set_page_config(
     page_title="India EV Market Analysis",
-    page_icon="🔋",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -79,8 +78,7 @@ def load_data():
 sales, models, states, policy = load_data()
 
 # ── Sidebar ───────────────────────────────────────────────────
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/320px-Flag_of_India.svg.png", width=80)
-st.sidebar.title("🔋 India EV Analysis")
+st.sidebar.title("India EV Analysis")
 st.sidebar.markdown("---")
 
 years = sorted(sales['Year'].unique())
@@ -104,7 +102,7 @@ filtered = sales[
 ]
 
 # ── Header ─────────────────────────────────────────────────────
-st.title("🇮🇳 India Electric Vehicle Market Analysis")
+st.title("India Electric Vehicle Market Analysis")
 st.markdown("**Passenger cars · 2019–2025 · Tata, Mahindra, MG, BYD & more**")
 st.markdown("---")
 
@@ -136,8 +134,8 @@ st.markdown("---")
 
 # ── Tab layout ─────────────────────────────────────────────────
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
-    "📈 Market Growth", "🏢 Brand Analysis", "🚗 Model Deep Dive",
-    "🗺️ State Adoption", "📜 Policy Impact"
+    "Market Growth", "Brand Analysis", "Model Deep Dive",
+    "State Adoption", "Policy Impact"
 ])
 
 # ═══════════════════════════════════════
@@ -179,7 +177,7 @@ with tab1:
         st.pyplot(fig)
         plt.close()
 
-    st.markdown('<div class="insight-box">💡 <strong>Key Insight:</strong> The market exploded in 2022 (~400% growth), driven by Tata\'s Nexon EV reaching mass scale and FAME II subsidies kicking in. 2025 shows a new acceleration as Mahindra enters the premium segment aggressively.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="insight-box"> <strong>Key Insight:</strong> The market exploded in 2022 (~400% growth), driven by Tata\'s Nexon EV reaching mass scale and FAME II subsidies kicking in. 2025 shows a new acceleration as Mahindra enters the premium segment aggressively.</div>', unsafe_allow_html=True)
 
     # Cumulative growth
     st.markdown('<div class="section-header">Cumulative Sales Trajectory</div>', unsafe_allow_html=True)
