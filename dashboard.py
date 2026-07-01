@@ -3,8 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
-import warnings
-warnings.filterwarnings('ignore')
+
 
 # ── Page config ──────────────────────────────────────────────
 st.set_page_config(
