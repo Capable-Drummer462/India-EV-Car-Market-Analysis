@@ -301,7 +301,7 @@ with tab3:
     st.pyplot(fig)
     plt.close()
 
-    st.markdown('<div class="insight-box"> Models under ₹20L (green zone) account for the majority of sales volume — the larger bubbles cluster in the affordable-to-mid segment, confirming that <strong>price sensitivity drives EV adoption</strong> in India more than battery size.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="insight-box"> Models under ₹20L (green) account for the majority of sales volume, the larger bubbles cluster in the affordable-to-mid segment, confirming that <strong>price sensitivity drives EV adoption</strong> in India more than battery size.</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="section-header">Full Model Specifications</div>', unsafe_allow_html=True)
     display_models = models[models['Car_Brand'] != 'Others'][['Car_Brand', 'Model', 'Segment', 'Launch_Year', 'Price_Lakh', 'Battery_kWh']].copy()
@@ -339,7 +339,7 @@ with tab4:
                   .set_index('State'),
             use_container_width=True
         )
-        st.markdown('<div class="insight-box">💡 Maharashtra + Karnataka + Kerala account for <strong>~48%</strong> of all EV sales. Tier-2 cities represent a massive untapped growth runway.</div>', unsafe_allow_html=True)
+        st.markdown('<div class="insight-box"> Maharashtra + Karnataka + Kerala account for <strong> around 48%</strong> of all EV sales. Tier-2 cities represent a massive untapped growth.</div>', unsafe_allow_html=True)
 
 # ═══════════════════════════════════════
 # TAB 5: POLICY IMPACT
