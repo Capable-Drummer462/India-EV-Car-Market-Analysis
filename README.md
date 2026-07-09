@@ -1,3 +1,5 @@
+(Kindly read this readme file for the analysis, hypothesis and conclusion)
+
 India EV Market Analysis (2019–2025)
 
 A comprehensive data analysis project exploring the growth of India's electric vehicle passenger car market — covering brand competition, model performance, price-range positioning,state-wise adoption, and the impact of government policy.
