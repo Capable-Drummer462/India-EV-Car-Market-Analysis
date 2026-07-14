@@ -109,7 +109,7 @@ By now everyone was observing the Indian Market boom and everybody wanted a piec
 Total Sales - 105109 (YoY Growth- 17.4%)
 Brands - 6, Models - 13
 
-A bad year for EVs, although total sales market crossed 100k milestone, YoY was just 17.4%.
+A bad year for EVs, Reason? Severe decline or exhaustion of state funded subsidies for electric cars, although total sales market crossed 100k milestone, YoY was just 17.4%.
 In attempt to capture the market again, Tata added 2 another cars in their lineup, PunchEv and CurvvEv, Punch did good but curvv lagged behind, Tata still had the top 3 most selling cars of the year, Punch Tiago Nexon, but it started losing its market share, i.e., 67.9%, MG became serious too, they launched WindsorEv, which was going well for its launch year itself, WindsorEv became a good alternate of Nexon in passenger market, also in commercial fleets. Mahindra saw a steady increase, Luxury cars sales fell drastically from before, Vinfast enters indian market.
 
 2025
@@ -173,7 +173,7 @@ One factor that is from the Govt policy section is that there are talks to blend
 
 Luxury car models faced a setback in our dataset from 2023 to 2024, but then from 2024 to 2025 they jumped 2x because of new brands and models added in lineup, with that trend the luxury cars sales will continue to increase in near future.
 
-To Summarize the hypothesis, the future of EV market looks good, from a monopoly the market has developed into a diverse one with healthy competition that ultimately benefits the consumers.
+To Summarize the hypothesis, Although in 2023-24 the YoY saw a major decline because of State subsidies account running short and a little pullback from government plus now the cars in sold yet came in used car market and it did spread awareness about electric cars depriciation, the future of EV market looks good from the 2024 crash to now looks good, from a monopoly the market has developed into a diverse one with healthy competition that ultimately benefits the consumers.
 
 ---
 
